@@ -83,7 +83,7 @@ By default, all of your devices will be visible and have a default icon determin
 homeassistant:
 
   # Add this to your existing configuration
-  # Only the `entity_id` is required.  All other options are optional.
+  # Only the `entity_id` is required.  Replace "some.entity_id" with a device (ex. "switch.bedroom") All other options are optional.
   customize:
     some.entity_id:
       hidden: true
